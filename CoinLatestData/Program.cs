@@ -9,15 +9,9 @@ using Newtonsoft.Json;
 
 
 using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Linq;
-
-using System.Net.Http;
-using RestSharp;
-
 using System.Data.SqlClient;
 using System.Web;
 using System.IO;
@@ -29,11 +23,8 @@ namespace CoinLatestData
     {
         static void Main(string[] args)
         {
-
-
             GetCoinService gcs = new GetCoinService();
             gcs.GetCoinsByDateAndPrice();
-
 
         }
 
